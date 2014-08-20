@@ -33,6 +33,6 @@ X<-X[,c("ActivityBySubject",selected)]
 library(reshape2)
 X2<-melt(X,id=c("ActivityBySubject"),measure_vars = selected )
 X3<-dcast(X2, ActivityBySubject   ~ variable  , mean, var.value="value" )
-write.table(X3,file="tidyData.txt")
+write.table(X3,file="tidyData.txt", row.name=FALSE)
 
 
