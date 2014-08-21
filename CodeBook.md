@@ -1,185 +1,69 @@
-Description of dataset tidyData.txt
-=========================
-
-__Means of *std() and *means() variables from original dataset, grouped by Activity and Subject__
-
-List of columns in tidyData.txt:
--------------------------
-* ActivityBySubject: Activity Name and Subject of the measurments (with format {Activity Description}.{Subject_Id})
-
-* tBodyAcc-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAcc-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAcc-mean()-Z:mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAcc-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAcc-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-* tBodyAcc-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-* tGravityA
-cc-mean()-X:mean of the variable of the same name from the original dataset, by Activity and Subjectty a
-nd Subject 
-
-* tGravityAcc-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tGravityAcc-mean()-Z:mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tGravityAcc-std()-X: : mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tGravityAcc-std()-Y: : mean of the variable of the same name from the original dataset, by Activity and Subject
-* tGravityAcc-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerk-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerk-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerk-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerk-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-
-* tBodyAccJerk-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerk-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyro-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroJerk-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroJerk-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroJerk-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroJerk-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* tBodyGyroJerk-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroJerk-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tGravityAccMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tGravityAccMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerkMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyAccJerkMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* tBodyGyroMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* tBodyGyroMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* tBodyGyroJerkMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* tBodyGyroJerkMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAcc-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAcc-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAcc-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAcc-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAcc-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAcc-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAcc-meanFreq()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAcc-meanFreq()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAcc-meanFreq()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAccJerk-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-meanFreq()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAccJerk-meanFreq()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccJerk-meanFreq()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-mean()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-mean()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-mean()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-std()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-std()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyGyro-std()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-meanFreq()-X: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-meanFreq()-Y: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyGyro-meanFreq()-Z: mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAccMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyAccMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyAccMag-meanFreq(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyAccJerkMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyAccJerkMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyBodyAccJerkMag-meanFreq(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyBodyGyroMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyGyroMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyGyroMag-meanFreq(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-* fBodyBodyGyroJerkMag-mean(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyGyroJerkMag-std(): mean of the variable of the same name from the original dataset, by Activity and Subject
- 
-* fBodyBodyGyroJerkMag-meanFreq(): mean of the variable of the same name from the original dataset, by Activity and Subject
-
-
-Transformation from original dataset:
--------------------------
-* subjects_train, y_train and X_train merged in only one data frame ( train )
-
-* subjects_test, y_test and X_test merged in only one data frame ( test )
-
-* X as result of merging the rows of *train* and *test*
-
-* Filter columns of data frame X, regarding expressions "mean()" or "std()" ( vector selected with column names filtered )
-
-* generate new column ActivityBySubject as "Activity.Subject" ( Activity = description of activity )
-
-* Data frame melted by ActivityBySubject
-
-* Mean calculated over melted data frame, by ActivityBySubject and Columns in vector selected
-
+CodeBook
+=============================
+
+Data source
+-----------
+The raw data used for this project belongs to the research project "Human Activity Recognition Using Smartphones Data Set" 
+
+(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
+
+and was dowloaded from here: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Feature Selection 
+-----------------
+You can find a full description of the original variables in the files README.txt and features.txt inside the downloaded zip. We can extract the following information from there:
+
+```
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+The reasoning behind my selection of features is that the assignment explicitly states "Extracts only the measurements on the mean and standard deviation for each measurement."
+To be complete, I included all variables having to do with mean or standard deviation.
+
+In short, for this derived dataset, these signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
+```
+
+In this project, all the variables containing values of means and standard deviations of the original sensor signals ( with name matching the expression `-(mean|std)\\(` ) have been kept in the resulting dataset. The name of this variables have been tidied and their mean has been calculated, grouped by Activity and Subject of the measurements.
+
+The transformation of the variable names consisted on:
+
+ 1. Replace `mean` with `Mean`
+ 2. Replace `std` with `Std`
+ 3. Remove parenthesis `()`
+ 4. Remove character '-'
+
+#### Sample of renamed variables compared to original variable name
+
+ Raw data            | Tidy data 
+ --------------------|--------------
+ `tBodyAcc-mean()-X` | `tBodyAccMeanX`
+ `tBodyAcc-mean()-Y` | `tBodyAccMeanY`
+ `tBodyAcc-mean()-Z` | `tBodyAccMeanZ`
+ `tBodyAcc-std()-X`  | `tBodyAccStdX`
+ `tBodyAcc-std()-Y`  | `tBodyAccStdY`
+ `tBodyAcc-std()-Z`  | `tBodyAccStdZ`
 
